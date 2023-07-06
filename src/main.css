@@ -1,0 +1,109 @@
+* {
+  vertical-align: baseline;
+}
+
+body {
+  background-color: rgba(202, 242, 186, 0.877);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.8rem;
+  text-align: center;
+  background-image: url("./img/logo.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+.logo {
+  background-image: url("./img/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 40px;
+  aspect-ratio: 16 /9;
+}
+
+.table td {
+  border: 1px solid #19875498;
+  background-color: transparent;
+}
+.table th {
+  background-color: transparent;
+  border: 0px;
+}
+
+nav , .form-control, button, .galeria img, .form-select {
+  -webkit-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+}
+nav {
+  font-size: 1.3rem;
+}
+
+.galeria {
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.galeria a {
+  margin: auto;
+  border: 2px solid #198754;
+  border-radius: 8px;
+  width: 48%;
+  justify-content: center;
+}
+.galeria img {
+  width: 100%;
+}
+
+.listMobile {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.cardHome {
+  background: transparent;
+  border: 2px solid #198754;
+  width: 48%;
+  -webkit-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+}
+.buttonNav button  {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  width: 80px;
+  padding: 7px;
+  transition: 0.4s;
+}
+
+.reg {
+  color: white;
+  background-color: #198754;
+}
+
+.log {
+  color: #198754;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid #198754;
+}
+
+.buttonNav button:hover {
+  color: white;
+  -webkit-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 17px -7px rgba(0,0,0,0.75);
+  background-color: #198754;
+}
